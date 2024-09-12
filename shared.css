@@ -15,6 +15,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    font-family: "Reddit Sans", sans-serif;
   }
   
   img, picture, video, canvas, svg {
@@ -35,4 +36,47 @@
   }
 
 /* GLOBAL SETTINGS */
+
+.hero {
+    background-image: url("images/bg.jpg");
+    background-position: top right;
+    background-size: cover;
+    height: 600px;
+    filter: blur(2px) grayscale(55%);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-list a, 
+.nav-list a:active {
+    text-decoration: none;
+    color: #343434;
+    font-weight: bold;
+}
+
+.nav-list a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.logo{
+    color: #d7d7d7;
+}
 
