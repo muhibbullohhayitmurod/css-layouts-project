@@ -37,14 +37,6 @@
 
 /* GLOBAL SETTINGS */
 
-.hero {
-    background-image: url("images/bg.jpg");
-    background-position: top right;
-    background-size: cover;
-    height: 600px;
-}
-
-
 .header {
     display: flex;
     justify-content: space-between;

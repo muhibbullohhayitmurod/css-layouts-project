@@ -1,3 +1,11 @@
+.hero {
+    background-image: url("../images/bg.jpg");
+    background-position: top right;
+    background-size: cover;
+    height: 600px;
+}
+
+
 .hero__card {
     position: relative;
     top: 200px;
