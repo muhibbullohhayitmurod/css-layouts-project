@@ -42,7 +42,6 @@
     background-position: top right;
     background-size: cover;
     height: 600px;
-    filter: blur(2px) grayscale(55%);
 }
 
 

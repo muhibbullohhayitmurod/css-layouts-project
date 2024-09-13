@@ -1,0 +1,32 @@
+.hero__card {
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    width: 600px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 0.3em;
+    color: #fff;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.hero__card p {
+    color: #d4d4d4;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+.hero__card a {
+    text-decoration: none;
+    border: 1px solid #d4d4d44d;
+    padding: 3px 5px;
+    border-radius: 0.3em;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.hero__card a:hover {
+    background-color: #fff;
+    color: #323232;
+    box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.4);
+}
