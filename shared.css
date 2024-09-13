@@ -71,3 +71,19 @@
     color: #d7d7d7;
 }
 
+
+
+.footer-list {
+  padding: 10px 0;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #444;
+}
+
+.footer-list li img{
+  width: 60px;
+}
+
