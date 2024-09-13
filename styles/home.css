@@ -30,3 +30,41 @@
     color: #323232;
     box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.4);
 }
+
+.subjects {
+    background: linear-gradient(180deg, rgba(30, 143, 255, 0.1), rgba(30, 143, 255, 0.4));
+    padding: 40px 10px;
+}
+
+.subjects h3 {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.subjects ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 20px auto 0 auto;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.subjects ul li {
+    flex: 1;
+}
+
+.subjects li img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5em;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.subjects ul p {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
